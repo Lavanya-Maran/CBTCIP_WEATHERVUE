@@ -94,3 +94,34 @@ body{
     font-size: 15px;
     display: none;
 }
+@media (min-width :300px) and (max-width :450px){
+    body{
+        background-image: url(./images/weatherBG.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+    }
+    .card{
+        width: 80%;
+        max-width: 480px;
+        background: url(./images/weatherBG.jpg);
+    }
+    .searchBox{
+        width: 50%;
+        display: flex;
+    }
+    .searchBox input{
+        width: 250px;
+        margin-left: -10px;
+    }
+    .searchBox #search{
+        width: 30px;
+        height: 30px;
+        margin-left: 10px;
+    }
+    .searchBox #search img{
+        width: 20px;
+        height: 20px;
+    }
+    
+}
