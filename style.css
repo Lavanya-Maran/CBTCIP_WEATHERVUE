@@ -102,7 +102,7 @@ body{
         height: 100%;
     }
     .card{
-        width: 80%;
+        width: 90%;
         max-width: 480px;
         background: url(./images/weatherBG.jpg);
     }
